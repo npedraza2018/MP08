@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  padding:0;
+  background-color:#e6e8eb;
+  font-family: 'Lucida Grande',Tahoma, San Francisco, Roboto, Segoe UI;
+}
+
+#barra {
+  width:100%;
+  height: 43px;
+  background-color:#3B5998;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+
+#contenedor {
+  width: 852px;
+  background-color: #FFF;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+#portada {
+  height: 307px;
+  background-image: url(../img/portada.jpg);
+
+
+}
+
+#nom {
+  width: 320px;
+  position:relative;
+  top: 256px;
+  left: 200px;
+  color: #FFF;
+  text-shadow: 0 0 25px black;
+
+}
+#perfil {
+  background-color: pink;
+  border: solid 3px white;
+  border-radius: 4px;
+  position:relative;
+  left:20px;
+  top:118px;
+  box-shadow: 0 0 5px #000;
+}
+
+#menu {
+  height:44px;
+  background-color:#e6e8eb;
+  padding: 0px;
+  margin: 0 0 0 186px;
+  width: 500px;
+
+}
+
+#menu li {
+  float: left;
+  padding:0 18px;
+  display:block;
+  font-weight: bold;
+  color:#334f8d;
+  background-color:#FFF;
+  height:44px;
+  margin: 0 0 0 1px;
+  height: 44px;
+  line-height: 44px;
+}
+
+#menu li:hover {
+  color: #000;
+  background-image: url(../img/select.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 37px;
+}
+
+
+#contingut {
+  border-top: solid 2px #e6e8eb;
+}
+
+.esquerra {
+  width: 323px;
+  background-color: pink;
+  border: solid 1px #CCC;
+  border-radius: 3px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.esquerra h4 {
+  Height: 14px;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 18px;
+  text-indent: 36px;
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+  margin: 0;
+
+}
+
+
+
+#presentacio h4 {
+  background-position: 0 0;
+}
+
+#fotos h4 {
+  background-position: 0 -24px;
+}
+
+
+#amics h4 {
+  background-position: 0 -48px;
+
+}
+
+#presentacio li {
+  height: 30px;
+  border-bottom: solid 1px grey;
+  font-size: 12px;
+  line-height: 30px;
+
+}
+
+#presentacio .estudis {
+  list-style: url(../img/icones_estudis.png);
+}
+
+#presentacio .domicili {
+  list-style: url(../img/icones_domicili.png);
+}
+
+  #presentacio .feina {
+    list-style: url(../img/icones_feina.png);
+}
+
+#presentacio .relacio {
+  list-style: url(../img/icones_sentimental.png);
+}
+
+#presentacio .esdeveniments {
+  list-style: url(../img/icones_esdeveniments.png);
+}
+
+#presentacio .pagina {
+  list-style: url(../img/icones_rss.png);
+}
+
+#fotos ul li {
+  background-color: green;
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+  color: transparent;
+
+}
+#fotos ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+.esquerra ul {
+  margin-top: 20px;
+}
+
+#f01 {
+  background-image: url(../img/fotos/f01.jpg);
+}
+
+#f02 {
+  background-image: url(../img/fotos/f02.jpg);
+}
+
+#f03 {
+  background-image: url(../img/fotos/f03.jpg);
+}
+
+#f04 {
+  background-image: url(../img/fotos/f04.jpg);
+}
+
+#f05 {
+  background-image: url(../img/fotos/f05.jpg);
+}
+
+#f06 {
+  background-image: url(../img/fotos/f06.jpg);
+}
+
+#f07 {
+  background-image: url(../img/fotos/f07.jpeg);
+}
+
+#f08 {
+  background-image: url(../img/fotos/f08.jpg);
+}
+
+#f09 {
+  background-image: url(../img/fotos/f09.jpg);
+}
+
+
+#amics ul li {
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+  color: white;
+  line-height: 179px;
+  text-shadow: 0  0 2px black;
+  text-indent: 5px;
+}
+
+
+#amics ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+#a01 {
+  background-image: url(../img/perfil2.jpg);
+}
+
+#a02 {
+  background-image: url(../img/perfil2.jpg);
+}
+
+#a03 {
+  background-image: url(../img/perfil2.jpg);
+}
+
+#a04 {
+  background-image: url(../img/perfil2.jpg);
+}
+
+#a05 {
+  background-image: url(../img/perfil2.jpg);
+}
+
+#a06 {
+  background-image: url(../img/perfil2.jpg);
+}
+
+#a07 {
+  background-image: url(../img/perfil2.jpg);
+}
+
+#a08 {
+  background-image: url(../img/perfil2.jpg);
+}
+
+#a09 {
+  background-image: url(../img/perfil2.jpg);
+}
